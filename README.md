@@ -5,7 +5,8 @@ there are 3 ways to import routing to v2ray clients
 
 v2rayn:
 
- 1st:using link of githubusercontent.com as optional link(i will update this for better understanding)or
+ 1st:using link of githubusercontent.com as optional link(https://github.com/RONlol/routing/blob/main/rest%20direct(included%20apps%20proxied))or
+ 
  ![image](https://github.com/user-attachments/assets/5694371d-5c93-4948-9282-23f89e2661dc)
 
  2nd:as json file
