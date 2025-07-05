@@ -1,0 +1,144 @@
+[
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
+      "exitgames.com"
+    ],
+    "enabled": false,
+    "remarks": "R.E.P.O"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "20.33.0.0/16"
+    ],
+    "domain": [
+      "playfabapi.com",
+      "thehelldiversgame.com",
+      "cloudapp.azure.com",
+      "azure.com"
+    ],
+    "process": [
+      "helldivers2.exe"
+    ],
+    "enabled": false,
+    "remarks": "HELLDIVERS2"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "process": [
+      "Phasmophobia.exe"
+    ],
+    "enabled": true,
+    "remarks": "Phasmophobia.exe"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "216.120.180.0/24"
+    ],
+    "domain": [
+      "valve.net",
+      "photonengine.io",
+      "unity3d.com",
+      "unity.com",
+      "vivox.com",
+      "gameanalytics.com"
+    ],
+    "enabled": false,
+    "remarks": "Phasmophobia"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "104.22.0.0/16",
+      "89.149.0.0/16",
+      "172.67.0.0/16",
+      "78.138.0.0/16",
+      "108.138.0.0/16",
+      "178.54.0.0/16",
+      "212.117.0.0/16",
+      "92.38.0.0/16",
+      "142.91.0.0/16"
+    ],
+    "domain": [
+      "amazonaws.com",
+      "docker.ru",
+      "gaijin.net",
+      "gaijinent.com",
+      "gcdn.co",
+      "leaseweb.com",
+      "vectoral.info",
+      "warthunder.com",
+      "fbcdn.net",
+      "free.fs",
+      "cloudfront.net"
+    ],
+    "enabled": false,
+    "remarks": "WarThunder"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "process": [
+      "firefox.exe"
+    ],
+    "enabled": true,
+    "remarks": "firefox"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
+      "spotify.com"
+    ],
+    "enabled": true,
+    "remarks": "spotify(with api support)"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "process": [
+      "Telegram.exe"
+    ],
+    "enabled": true,
+    "remarks": "telegram"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
+      "youtube.com"
+    ],
+    "enabled": true,
+    "remarks": "Youtube"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
+      "discord.com",
+      "discord.gg",
+      "discord.media",
+      "discordapp.com",
+      "sentry.io",
+      "vencord.dev",
+      "dealer.spotify.com",
+      "api.spotify.com",
+      "discordapp.net"
+    ],
+    "enabled": true,
+    "remarks": "Discord(with spotify api)"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": ""
+  }
+]
