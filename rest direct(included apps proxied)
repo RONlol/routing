@@ -3,10 +3,38 @@
     "port": "",
     "outboundTag": "proxy",
     "domain": [
+      "github.com",
+      "githubusercontent.com"
+    ],
+    "enabled": false,
+    "remarks": "github"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
       "exitgames.com"
     ],
     "enabled": false,
     "remarks": "R.E.P.O"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "20.33.0.0/16"
+    ],
+    "enabled": false,
+    "remarks": "HELLDIVERS2(ip range)"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "process": [
+      "helldivers2.exe"
+    ],
+    "enabled": false,
+    "remarks": "HELLDIVERS2.exe"
   },
   {
     "port": "",
@@ -29,18 +57,24 @@
   {
     "port": "",
     "outboundTag": "proxy",
+    "ip": [
+      "216.120.180.0/24"
+    ],
+    "enabled": false,
+    "remarks": "Phasmophobia(ip range)"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
     "process": [
       "Phasmophobia.exe"
     ],
-    "enabled": true,
+    "enabled": false,
     "remarks": "Phasmophobia.exe"
   },
   {
     "port": "",
     "outboundTag": "proxy",
-    "ip": [
-      "216.120.180.0/24"
-    ],
     "domain": [
       "valve.net",
       "photonengine.io",
@@ -66,6 +100,12 @@
       "92.38.0.0/16",
       "142.91.0.0/16"
     ],
+    "enabled": false,
+    "remarks": "WarThunder(ip range)"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
     "domain": [
       "amazonaws.com",
       "docker.ru",
@@ -130,7 +170,8 @@
       "vencord.dev",
       "dealer.spotify.com",
       "api.spotify.com",
-      "discordapp.net"
+      "discordapp.net",
+      "discord-attachments-uploads-prd.storage.googleapis.com"
     ],
     "enabled": true,
     "remarks": "Discord(with spotify api)"
