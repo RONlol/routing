@@ -19,3 +19,5 @@ v2rayn:
 
 
 more to come...
+
+i found out theres a whole lib of data for this kind of problem check out:https://github.com/v2fly/domain-list-community
